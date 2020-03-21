@@ -1,7 +1,10 @@
 
 package proyectocontarpalabras;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Sergio
+ */
 public class MainClass {
 
     //PROPIEDADES 

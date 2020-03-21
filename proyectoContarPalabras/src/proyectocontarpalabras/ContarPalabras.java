@@ -1,5 +1,9 @@
 
 package proyectocontarpalabras;
+/**
+ * 
+ * @author Sergio
+ */
 
 public class ContarPalabras {
     
