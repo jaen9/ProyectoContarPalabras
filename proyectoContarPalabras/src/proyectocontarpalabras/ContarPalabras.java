@@ -7,7 +7,7 @@ public class ContarPalabras {
     static char acAbecedario[]= {'A','B','C','D','E','F','G','H','I','J','K','L'
                                 ,'M','N','Ñ','O','P','Q','R','S','T','U','V','W',
                                 'X','Y','Z','.',',',';',':','!','¡','?','¿','\\'
-                                ,'/'}; 
+                                ,'/' }; 
     
      static int contarCaracteresTotal(String cadena) {
     	 char acCaracterFrase[] =cadena.toUpperCase().toCharArray();
@@ -56,4 +56,5 @@ public class ContarPalabras {
     	 
     	 return aiVecesChar;
      }//contarTodosCaracteres
+     
 }//ContarPalabras
