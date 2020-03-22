@@ -11,11 +11,7 @@ public class MainClass {
     static Scanner sc = new Scanner(System.in);
     static int iTotalCaracteres=0,iTotalPalabras=0;
     static String sFrase;
-    static int aiVecesCaracter[]=new int[38];
-    static char acAbecedario[]= {'A','B','C','D','E','F','G','H','I','J','K','L'
-                                ,'M','N','Ñ','O','P','Q','R','S','T','U','V','W',
-                                'X','Y','Z','.',',',';',':','!','¡','?','¿','\\'
-                                ,'/'}; 
+
     
      //METODOS Mostrar
     
