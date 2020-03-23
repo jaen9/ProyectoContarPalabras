@@ -1,22 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package proyectocontarpalabras;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ *Clase que realiza una serie de pruebas para comprobar que la forma de contar
+ * caracteres y palabras es correcta
+ * 
  * @author Sergio
+ * @version 1.00
  */
 public class ContarPalabrasTest {
 
 
     /**
-     * Test of contarCaracteresTotal method, of class ContarPalabras.
+     * Test of contarCaracteresTotal method 1, of class ContarPalabras.
      */
     @Test
     public void testContarCaracteresTotal1() {
@@ -26,7 +24,7 @@ public class ContarPalabrasTest {
     }
     
     /**
-     * Test of contarCaracteresTotal method, of class ContarPalabras.
+     * Test of contarCaracteresTotal method 2, of class ContarPalabras.
      */
     @Test
     public void testContarCaracteresTotal2() {
@@ -34,8 +32,9 @@ public class ContarPalabrasTest {
         int a = prueba.contarCaracteresTotal("la practica es muy dificl");
         assertNotEquals(20, a);
     }
+    
     /**
-     * Test of contarNumeroPalabras method, of class ContarPalabras.
+     * Test of contarNumeroPalabras method 1, of class ContarPalabras.
      */
     @Test
     public void testContarNumeroPalabras1() {
@@ -45,7 +44,7 @@ public class ContarPalabrasTest {
     }
     
     /**
-     * Test of contarNumeroPalabras method, of class ContarPalabras.
+     * Test of contarNumeroPalabras method 2, of class ContarPalabras.
      */
     @Test
     public void testContarNumeroPalabras2() {
@@ -54,9 +53,8 @@ public class ContarPalabrasTest {
         assertNotEquals(2, a);
     }
     
-
     /**
-     * Test of contarTodosCaracteres method, of class ContarPalabras.
+     * Test of contarTodosCaracteres method 1, of class ContarPalabras.
      */
     @Test
     public void testContarTodosCaracteres1() {
@@ -64,8 +62,9 @@ public class ContarPalabrasTest {
         int a[] = prueba.contarTodosCaracteres("a");
         assertEquals(1, a[0]);
     }
+    
     /**
-     * Test of contarTodosCaracteres method, of class ContarPalabras.
+     * Test of contarTodosCaracteres method 2, of class ContarPalabras.
      */
     @Test
         public void testContarTodosCaracteres2() {
