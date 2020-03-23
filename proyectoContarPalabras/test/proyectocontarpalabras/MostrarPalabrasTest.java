@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package proyectocontarpalabras;
 
 
@@ -10,8 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Clase en la que se realizan una serie de pruebas para comprobar que el 
+ * resultado que muestra es el esperado
+ * 
  * @author Sergio
+ * @version 1.00
  */
 public class MostrarPalabrasTest {
     
@@ -55,6 +53,7 @@ public class MostrarPalabrasTest {
         String a = prueba.textoNumeroPalabras(2);
         assertNotEquals("El número total de palabras es 5", a);
     }
+    
     /**
      * Test 1 of textoTodosCaracteres method, of class MostrarPalabras.
      */
@@ -67,7 +66,7 @@ public class MostrarPalabrasTest {
                     prueba.textoTodosCaracteres(a));
     }
     
-        /**
+    /**
      * Test 2 of textoTodosCaracteres method, of class MostrarPalabras.
      */
     @Test
