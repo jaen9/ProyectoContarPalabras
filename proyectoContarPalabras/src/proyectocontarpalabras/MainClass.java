@@ -2,8 +2,10 @@
 package proyectocontarpalabras;
 import java.util.Scanner;
 /**
- * 
- * @author Sergio
+ * Clase principal para lanzar el programa de contar y mostrar palabras de 
+ * una cadena de caracteres pedida al usuario 
+ * @author Sergio Jaen
+ * @version 1.00
  */
 public class MainClass {
 
@@ -13,7 +15,13 @@ public class MainClass {
     static String sFrase;
 
     
-
+    /**
+     * Se pidde al usuario que introduzca una frase y a continuación se cuentan
+     * los caracteres totales, las palabras y cúantas veces cada caracter.
+     * Finalmente se muestra por pantalla el resultado. 
+     * 
+     * @param args Parámetro por defecto del método main
+     */
    
     public static void main (String [] args) {
 
